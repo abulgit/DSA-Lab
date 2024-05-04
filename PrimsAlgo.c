@@ -23,7 +23,7 @@ void printMST(int parent[], int graph[V][V]) {
         totalWeight += graph[i][parent[i]];
     } 
  
-    printf("Total Weight of MST s: %d\n", totalWeight);
+    printf("Total Weight of MST is: %d\n", totalWeight);
 } 
  
 void primMST(int graph[V][V]) { 
