@@ -13,7 +13,7 @@ int minKey(int key[], bool mstSet[]) {
  
     return min_index; 
 } 
- 
+
 void printMST(int parent[], int graph[V][V]) { 
     printf("Edge \tWeight\n"); 
     int totalWeight = 0; 
